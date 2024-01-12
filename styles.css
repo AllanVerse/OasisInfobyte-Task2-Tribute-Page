@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.hedin {
+    text-align: center;
+    color: #333; /* You can customize the color */
+  }
+  
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+h1{
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Play', sans-serif;
+    font-weight:400;
+}
+p{
+    font-family: 'Play', sans-serif;
+    font-weight: 200;
+}
+h3{
+    font-family: 'Play', sans-serif;
+    font-weight:200;
+}
+
+section{
+    max-width: 80%;
+    width: 100%;
+}
+  
+#tribute-info{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#tribute-info p{
+    text-align: center;
+}
+
+#tribute-link{
+    color: #007BFF; 
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text {
+      position: static;
+      background-color: transparent;
+      padding: 10px;
+    }
+  
+    #tribute-info {
+      width: 100%;
+    }
+}
